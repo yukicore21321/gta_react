@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 export default function NotFound() {
     useEffect(() => {
-        document.title = "Không tìm thấy trang - GTA Go Việt Nam";
+        document.title = "Không tìm thấy trang - GTA ZONE";
     }, []);
 
     return (

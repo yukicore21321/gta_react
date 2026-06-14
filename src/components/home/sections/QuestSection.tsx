@@ -16,7 +16,7 @@ export default function QuestSection() {
                 <a href="" className="absolute top-0 right-0 z-20 h-full w-[50%] cursor-pointer" onMouseEnter={() => setHoverRight(true)} onMouseLeave={() => setHoverRight(false)}></a>
                 <div className="z-10 flex h-full w-[70rem] flex-col gap-[6.4rem] text-[1.6rem] font-medium text-white">
                     <p className="text-center leading-[2.4rem]">
-                        <span className="text-primary">GTA Go Việt Nam</span> là cơ hội độc đáo để bạn đắm mình vào vũ trụ ảo và nhập vai được chọn, tuân theo các quy tắc tương tự như ngoài đời thực. Trở thành chính trị gia, gangster, doanh nhân, tài xế taxi, công nhân nhà máy, cảnh sát hoặc bất kỳ vai trò nào khác. Chúng tôi không có giới hạn, bạn được tự do lựa chọn con đường của mình và tạo ra câu chuyện của riêng mình trong thế giới ảo này!
+                        <span className="text-primary">GTA ZONE</span> là cơ hội độc đáo để bạn đắm mình vào vũ trụ ảo và nhập vai được chọn, tuân theo các quy tắc tương tự như ngoài đời thực. Trở thành chính trị gia, gangster, doanh nhân, tài xế taxi, công nhân nhà máy, cảnh sát hoặc bất kỳ vai trò nào khác. Chúng tôi không có giới hạn, bạn được tự do lựa chọn con đường của mình và tạo ra câu chuyện của riêng mình trong thế giới ảo này!
                     </p>
                     <div className="flex flex-col items-center gap-[1rem]">
                         <h1 className="text-[1.8rem]">Tại sao bạn thử nó?</h1>

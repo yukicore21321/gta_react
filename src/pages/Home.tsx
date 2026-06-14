@@ -17,7 +17,7 @@ const showCaseSlides = [`${import.meta.env.BASE_URL}images/show_case/photos_emai
 const showCaseArticles: IArticlesProps[] = [
     {
         title: "QUYỀN LỰC CỦA BẠN",
-        content: "Trong trò chơi nhập vai GTA Go năng động này, bạn có quyền lựa chọn: lãnh đạo một băng đảng khét tiếng hoặc lật ngược kịch bản và tham gia lực lượng để trở thành người bảo vệ công lý. Vượt qua ranh giới mong manh giữa tội phạm và luật pháp, nơi mọi quyết định có thể đẩy bạn vào cuộc sống giao dịch ngầm hoặc vào hàng ngũ những người dũng cảm nhất của thành phố. Bạn sẽ cai trị đường phố hay bảo vệ chúng?",
+        content: "Trong trò chơi nhập vai GTA ZONE năng động này, bạn có quyền lựa chọn: lãnh đạo một băng đảng khét tiếng hoặc lật ngược kịch bản và tham gia lực lượng để trở thành người bảo vệ công lý. Vượt qua ranh giới mong manh giữa tội phạm và luật pháp, nơi mọi quyết định có thể đẩy bạn vào cuộc sống giao dịch ngầm hoặc vào hàng ngũ những người dũng cảm nhất của thành phố. Bạn sẽ cai trị đường phố hay bảo vệ chúng?",
     },
     {
         title: "XE VÀ QUẦN ÁO PHÙ HỢP VỚI MỌI SỞ THÍCH",
@@ -25,7 +25,7 @@ const showCaseArticles: IArticlesProps[] = [
     },
     {
         title: "CẢM GIÁC VÀ MẠO HIỂM",
-        content: "Tham gia vào vô số hoạt động trên GTA Go Việt Nam. Vươn lên thành công bằng cách điều hành doanh nghiệp vận tải của riêng bạn hoặc lặn vào thế giới GTA để tạo ra thu nhập thụ động. Nhưng không chỉ là kiếm tiền; mà là vượt qua đối thủ cạnh tranh và kiểm soát lãnh địa của bạn. Hãy để mắt đến các đối thủ và quản lý tài sản của bạn một cách cẩn thận để trở thành một ông trùm thực thụ trong trò chơi.",
+        content: "Tham gia vào vô số hoạt động trên GTA ZONE. Vươn lên thành công bằng cách điều hành doanh nghiệp vận tải của riêng bạn hoặc lặn vào thế giới GTA để tạo ra thu nhập thụ động. Nhưng không chỉ là kiếm tiền; mà là vượt qua đối thủ cạnh tranh và kiểm soát lãnh địa của bạn. Hãy để mắt đến các đối thủ và quản lý tài sản của bạn một cách cẩn thận để trở thành một ông trùm thực thụ trong trò chơi.",
     },
 ];
 const guideImages = [`${import.meta.env.BASE_URL}images/guide/circles.svg`, `${import.meta.env.BASE_URL}images/guide/cityscape.webp`, `${import.meta.env.BASE_URL}images/guide/dots.svg`, `${import.meta.env.BASE_URL}images/guide/launcher.svg`, `${import.meta.env.BASE_URL}images/guide/v_logo.svg`];
@@ -35,7 +35,7 @@ export default function Home() {
 
     return (
         <>
-            <HomeLayout title="GTA Go Việt Nam">
+            <HomeLayout title="GTA ZONE">
                 <IntroSection />
                 <QuestSection />
                 <ShowCaseSection setOpen={setOpen} images={showCaseImages} articles={showCaseArticles} slides={showCaseSlides} />

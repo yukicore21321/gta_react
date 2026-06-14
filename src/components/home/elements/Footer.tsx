@@ -21,7 +21,7 @@ export default function Footer() {
                         </defs>
                     </svg>
                     <div className="text-[1.1rem] leading-[1.8rem] font-semibold text-[#ffffff59]">
-                        <p>Công ty TNHH Công nghệ GTA Go</p>
+                        <p>Công ty TNHH Công nghệ GTA ZONE</p>
                         <p>Mã số thuế: 8079053903-888</p>
                         <p>Đăng ký tại Việt Nam</p>
                         <p>GX11 1AA, Hà Nội</p>
@@ -60,7 +60,7 @@ export default function Footer() {
                                 Hỗ trợ kỹ thuật trong Discord
                             </a>
                             <a href="" className="hover:text-white">
-                                help@gtago.com
+                                help@gtavnz.io.vn
                             </a>
                         </nav>
                     </div>

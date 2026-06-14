@@ -1,4 +1,4 @@
-## <div align="center"><a href="https://mrtrunq.github.io/gta5_site">Trung's GTA-V Site</a></div>
+## <div align="center"><a href="https://gtavnz.io.vn">GTA ZONE</a></div>
 
 <img src="./public/readme.gif" alt="readme_view" align="center">
 

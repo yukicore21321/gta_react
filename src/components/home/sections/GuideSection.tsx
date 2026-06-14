@@ -34,7 +34,7 @@ export const GuideSection = ({ images }: { images: string[] }) => {
                                 <div className="flex justify-center gap-[2.4rem]">
                                     <img src={images[3]} alt="" />
                                     <div className="flex w-[40rem] flex-col justify-center">
-                                        <span className="mb-[1rem] text-[1.8rem] font-bold">Tải Về Majestic Launcher</span>
+                                        <span className="mb-[1rem] text-[1.8rem] font-bold">Tải Về GTA ZONE Launcher</span>
                                         <span className="text-secondary-foreground text-[1.6rem]">Launcher sẽ tải về các tệp máy chủ cần thiết</span>
                                     </div>
                                 </div>
