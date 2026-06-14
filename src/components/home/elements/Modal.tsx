@@ -15,7 +15,7 @@ export default function Modal({ open, slides }: { open: boolean; slides: string[
                 </svg>
                 <div className="relative flex h-[68.1rem] w-[186.4rem] flex-col">
                     <div className="mb-[2.4rem] flex h-full w-full justify-center overflow-hidden rounded-xl">
-                        <img src={`${import.meta.env.BASE_URL}/images/show_case/photos_email/photo8.webp`} alt="" className="h-[54.1rem] w-[128rem] rounded-xl object-cover" />
+                        <img src={`${import.meta.env.BASE_URL}images/show_case/photos_email/photo8.webp`} alt="" className="h-[54.1rem] w-[128rem] rounded-xl object-cover" />
                     </div>
                     <div className="relative h-[9.2rem] w-full px-[2.4rem]">
                         <div className="absolute left-0 h-full w-[2.4rem] border"></div>
