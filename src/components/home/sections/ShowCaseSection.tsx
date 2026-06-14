@@ -43,7 +43,7 @@ export default function ShowCaseSection({ setOpen, images, articles, slides }: {
                 </article>
                 <article className="flex h-[54.2rem] w-[78.3rem] flex-col gap-[2rem]">
                     <a href="https://www.youtube.com/watch?v=YNNATj2jsfM" className="relative h-[27rem] w-full">
-                        <img src={`${import.meta.env.BASE_URL}/images/show_case/cover.jpg `} alt="" className="border-corner absolute right-0 left-0 h-full w-full rounded-2xl border object-cover" />
+                        <img src={`${import.meta.env.BASE_URL}/images/show_case/cover.jpg`} alt="" className="border-corner absolute right-0 left-0 h-full w-full rounded-2xl border object-cover" />
                         <div className="group absolute flex h-full w-full items-center justify-center gap-[3rem] bg-[#00000059]">
                             <div className="card-element-active card-element-active w-[6.4rem] rounded-full duration-200 group-hover:scale-[1.1] group-hover:shadow-[0_0_64px_#fff]">
                                 <svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-full w-full fill-white">
@@ -64,7 +64,7 @@ export default function ShowCaseSection({ setOpen, images, articles, slides }: {
                             }
                         })}
                         <div className="border-corner relative h-[9.2rem] cursor-pointer rounded-xl border-[0.5px] transition-transform duration-200 ease-in-out hover:-translate-y-1" onClick={() => setOpen(true)}>
-                            <img src={`${import.meta.env.BASE_URL}/images/show_case/photos_email/photo8.webp `} alt="" className="h-full w-full rounded-xl opacity-10 saturate-0" />
+                            <img src={`${import.meta.env.BASE_URL}/images/show_case/photos_email/photo8.webp`} alt="" className="h-full w-full rounded-xl opacity-10 saturate-0" />
                             <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center gap-[2rem]">
                                 <div className="w-[5.6rem] text-right text-[1.4rem] leading-[2.1rem] font-bold text-[#d7d7d7] uppercase">more photos</div>
                                 <svg className="h-[2.1rem] w-[1.3rem] fill-[#d7d7d7]" data-v-745adced="" viewBox="0 0 13 21" fill="none" xmlns="http://www.w3.org/2000/svg">

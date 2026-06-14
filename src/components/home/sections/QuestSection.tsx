@@ -7,11 +7,11 @@ export default function QuestSection() {
     return (
         <>
             <section className="relative z-0 mb-[2.4rem] flex min-h-[59.5rem] w-full flex-col items-center justify-start overflow-hidden pt-[6.1rem] pb-[5.4rem]">
-                <img src={`${import.meta.env.BASE_URL}/images/quest_starter/particles.webp `} alt="" className="absolute top-[-5.2rem] right-[7.5%] left-[7.5%] z-10 mx-auto w-[85%] max-w-[163rem] object-contain" />
-                <img src={`${import.meta.env.BASE_URL}/images/quest_starter/left-palms.webp `} alt="" className="absolute top-[-17rem] left-0 h-[73.1rem] object-contain" />
-                <img src={`${import.meta.env.BASE_URL}/images/quest_starter/right-palms.webp `} alt="" className="absolute top-[-17rem] right-0 h-[73.1rem] object-contain" />
-                <img src={`${import.meta.env.BASE_URL}/images/quest_starter/gang.webp `} alt="" className={`absolute top-0 left-[12rem] z-10 h-[62.3rem] w-[53.6rem] object-contain saturate-0 transition duration-200 ${hoverLeft && "saturate-100 transition duration-200 ease-in-out"} ease-in-out`} />
-                <img src={`${import.meta.env.BASE_URL}/images/quest_starter/cop.webp `} alt="" className={`absolute top-0 right-[12rem] z-10 h-[62.3rem] w-[53.6rem] object-contain saturate-0 transition duration-200 ${hoverRight && "saturate-100 transition duration-200 ease-in-out"} ease-in-out`} />
+                <img src={`${import.meta.env.BASE_URL}/images/quest_starter/particles.webp`} alt="" className="absolute top-[-5.2rem] right-[7.5%] left-[7.5%] z-10 mx-auto w-[85%] max-w-[163rem] object-contain" />
+                <img src={`${import.meta.env.BASE_URL}/images/quest_starter/left-palms.webp`} alt="" className="absolute top-[-17rem] left-0 h-[73.1rem] object-contain" />
+                <img src={`${import.meta.env.BASE_URL}/images/quest_starter/right-palms.webp`} alt="" className="absolute top-[-17rem] right-0 h-[73.1rem] object-contain" />
+                <img src={`${import.meta.env.BASE_URL}/images/quest_starter/gang.webp`} alt="" className={`absolute top-0 left-[12rem] z-10 h-[62.3rem] w-[53.6rem] object-contain saturate-0 transition duration-200 ${hoverLeft && "saturate-100 transition duration-200 ease-in-out"} ease-in-out`} />
+                <img src={`${import.meta.env.BASE_URL}/images/quest_starter/cop.webp`} alt="" className={`absolute top-0 right-[12rem] z-10 h-[62.3rem] w-[53.6rem] object-contain saturate-0 transition duration-200 ${hoverRight && "saturate-100 transition duration-200 ease-in-out"} ease-in-out`} />
                 <a href="" className="absolute top-0 left-0 z-20 h-full w-[50%] cursor-pointer" onMouseEnter={() => setHoverLeft(true)} onMouseLeave={() => setHoverLeft(false)}></a>
                 <a href="" className="absolute top-0 right-0 z-20 h-full w-[50%] cursor-pointer" onMouseEnter={() => setHoverRight(true)} onMouseLeave={() => setHoverRight(false)}></a>
                 <div className="z-10 flex h-full w-[70rem] flex-col gap-[6.4rem] text-[1.6rem] font-medium text-white">
